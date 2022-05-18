@@ -1,0 +1,24 @@
+{
+    "name": "intents-listener",
+    "title": "Intents Listener",
+    "icon": "https://example.com/icon.ico",
+    "type": "window",
+    "details": {
+        "url": "http://localhost:9000",
+        "mode": "tab",
+        "width": 480,
+        "height": 320
+    },
+    "customProperties": {
+        "folder": "INTENTS TEST"
+    },
+    "intents": [
+        {
+            "name": "ViewChart",
+            "displayName": "View Chart",
+            "contexts": [
+                "Client"
+            ]
+        }
+    ]
+}
